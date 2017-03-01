@@ -6,6 +6,7 @@ from astropy.io import fits
 from RATIR_EM_Followup_GW import GW_Followup 
 from LIST_SLC_V2 import list_slc,list_slc_2  # LIST_SLC ---> LIST_SLC_V2
 GO = True
+GO2= False
 CLU = True
 def SKY_MAP_REDUCER(SKY_MAP,WHEN='',min_obsv=30.,obs_tm=5.,FIGs=False,Dist=1000.,REMOVE_TEMP=True):
 	# comments:
