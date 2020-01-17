@@ -1,3 +1,4 @@
+# author: V. Zach Golkhou
 from numpy import linspace,where,size,int,ceil,floor
 from astropy import units as u
 from astropy.time import Time
