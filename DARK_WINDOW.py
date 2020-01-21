@@ -35,8 +35,8 @@ def dark_window(tmrw=0,WHEN=''):
     night_stop = time[wh[-1]]
     diff_1m = 0.0006944	
     tm_available = floor((night_stop.jd - night_strt.jd)*1./diff_1m) # in minutes	
-    #print night_strt
-    #print night_stop
+    #print night_strt, night_stop
+    #
     #
     if Time(t) > night_strt:
 	#print "we've passed the night_start!"
